@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="Omar.Transactional_DB"
+  DTS:DTSID="{FE93CC1E-65D2-4B8F-BB1D-BE1BBE967C5F}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=Omar;Initial Catalog=Transactional_DB;Provider=SQLNCLI11.1;Integrated Security=SSPI;Application Name=SSIS-depi_project-{FE93CC1E-65D2-4B8F-BB1D-BE1BBE967C5F}Omar.Transactional_DB;Auto Translate=False;" />
+  </DTS:ObjectData>
+</DTS:ConnectionManager>

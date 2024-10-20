@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="Omar.Staging_DB"
+  DTS:DTSID="{916F7719-42B3-4276-8F01-479026CE66CE}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=Omar;Initial Catalog=Staging_DB;Provider=SQLNCLI11.1;Integrated Security=SSPI;Application Name=SSIS-depi_project-{916F7719-42B3-4276-8F01-479026CE66CE}Omar.Staging_DB;Auto Translate=False;" />
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
